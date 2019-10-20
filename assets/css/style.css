@@ -1,0 +1,66 @@
+html, body{
+    height:100%;
+  }
+  
+  body{
+    background-image: url(../images/background.jpg);
+    text-align: center;
+  
+  }
+  
+  #maincontainer{
+    margin:2.5% auto;
+    background-color: rgb(247, 222, 205);
+    width:950px;
+    height: 96%;
+    box-sizing: border-box;
+  }
+  
+  #subcontainer{
+    position: relative;
+  }
+  button{
+    display:block;
+    widows: 45%;
+    height:16%;
+    margin: 0 auto;
+    border:none;
+    cursor: pointer;
+    background:transparent;
+    font-size: 42px;;
+  }
+  
+  img{
+    height:175px;
+  }
+  
+  h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 6.3em;
+    font-weight: bold;
+    color:rgb(17, 111, 139);
+    padding-top: 2%;
+  }
+  
+  h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+  
+  h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  #start{
+    margin-top: 12%;
+    border:2px solid #00ffd5;
+    background: rgb(151, 229, 248);
+  }
+  
+  
+  
+  button:hover {
+    border:2px solid red;
+    background: rgb(248, 151, 167);
+  }
